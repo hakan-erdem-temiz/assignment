@@ -1,0 +1,19 @@
+{
+  "name": "assignment",
+  "jwtPrivateKey": "",
+  "db": "",
+  "db_test": "",
+  "port": "3900",
+  "cookieConfig": {
+    "httpOnly": true,
+    "maxAge": 1000000000,
+    "signed": true
+  },
+  "kafka":  {
+    "kafka_topic1": "quickstart-events",
+    "brokers": ["broker:9092"],
+    "connectionTimeout": 3000,
+    "authenticationTimeout": 1000,
+    "reauthenticationThreshold": 10000
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "sssignment",
+  "version": "1.0.0",
+  "description": "assignment case",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start-server": "node indx.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hakan Erdem Temiz",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.3",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "kafka-node": "^5.0.0",
+    "websocket": "^1.0.33",
+    "winston": "^3.3.3"
+  }
+}

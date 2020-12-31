@@ -1,0 +1,6 @@
+{
+  "name": "assignment",
+  "mail": {
+    "host": "prod-mail-server"
+  }
+}
